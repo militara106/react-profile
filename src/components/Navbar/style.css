@@ -1,7 +1,26 @@
+nav{
+    top: 50%;
+    font-size: 150%;
+}
+
 .navbar{
+    padding: 0 !important;
     background: none !important;
 }
 
+.verticalText{
+    transform: rotate(90deg);
+}
+
+.navbar-nav{
+    color: white !important;
+}
+
 .active{
-    background-color: #747474 !important;
+    background: none !important;
+    border-bottom: 1px white solid;
+}
+
+.nav-item{
+    line-height: normal;
 }

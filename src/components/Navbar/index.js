@@ -9,9 +9,8 @@ function CustomNavbar(props) {
       className="justify-content-center"
       bg="dark"
       variant="dark"
-      sticky="top"
     >
-      <Nav variant="pills" defaultActiveKey={window.location.pathname}>
+      <Nav className="verticalText" defaultActiveKey={window.location.pathname}>
         <Nav.Item>
           <Nav.Link href="/">About</Nav.Link>
         </Nav.Item>

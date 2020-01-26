@@ -4,7 +4,7 @@ import "./style.css";
 function BorderContainer(props) {
   return (
       <div className="borderContainer">
-          {props.children}
+        <div className="mainText">{props.children}</div>
       </div>
   );
 }
