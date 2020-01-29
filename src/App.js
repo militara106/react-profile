@@ -17,14 +17,19 @@ function App() {
         <Container>
           <Row>
             <Col xs={11}>
-              <Route exact path="/" component={Home} />
+              <section id="section-1"><Home /></section>
+              <section id="section-2"><Portfolio /></section>
+              <section id="section-3"><Contact /></section>
+              {/* <Route exact path="/" component={Home} />
               <Route exact path="/portfolio" component={Portfolio} />
-              <Route exact path="/contact" component={Contact} />
-              </Col>
-              <Col xs={1}>
-              <CustomNavbar />
-              </Col>
-              </Row>
+              <Route exact path="/contact" component={Contact} /> */}
+            </Col>
+            <Col xs={1}>
+              <div className="fixedRight">
+                <CustomNavbar />
+              </div>
+            </Col>
+          </Row>
         </Container>
         {/* <Footer /> */}
       </div>

@@ -22,6 +22,17 @@ code {
   height: 100vh;
 }
 
+.fixedRight{
+  position: fixed;
+  top: 50%;
+  background-color: red;
+  width: 0px;
+}
+
+section{
+  height: 100vh;
+}
+
 .mainText {
   color: white;
   background-color: red;
