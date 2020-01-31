@@ -16,15 +16,19 @@ function App() {
       <div>
         <Container>
           <Row>
-            <Col xs={11}>
+            <Col xs={10}>
+              {/* Sections set for ScrollSpy */}
               <section id="section-1"><Home /></section>
               <section id="section-2"><Portfolio /></section>
               <section id="section-3"><Contact /></section>
+
+              {/* Router Backup */}
               {/* <Route exact path="/" component={Home} />
               <Route exact path="/portfolio" component={Portfolio} />
               <Route exact path="/contact" component={Contact} /> */}
+
             </Col>
-            <Col xs={1}>
+            <Col xs={2}>
               <div className="fixedRight">
                 <CustomNavbar />
               </div>

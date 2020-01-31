@@ -24,13 +24,14 @@ code {
 
 .fixedRight{
   position: fixed;
-  top: 50%;
   background-color: red;
   width: 0px;
+  height: 100%;
 }
 
 section{
   height: 100vh;
+  transition: 1s;
 }
 
 .mainText {

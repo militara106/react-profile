@@ -1,6 +1,10 @@
 nav{
-    top: 50%;
-    font-size: 150%;
+    height: 100%;
+    font-size: 110%;
+}
+
+ul{
+    text-align: center;
 }
 
 .navbar{
@@ -10,6 +14,7 @@ nav{
 
 .verticalText{
     transform: rotate(90deg);
+    padding: 0 !important;
 }
 
 .navbar-nav{
@@ -18,9 +23,13 @@ nav{
 
 .active{
     background: none !important;
-    border-bottom: 1px white solid;
+    color: rgba(255,255,255,.5) !important;
+}
+
+.active>.nav-link{
+    color: white !important;
 }
 
 .nav-item{
-    line-height: normal;
+    line-height: 4;
 }
