@@ -6,6 +6,7 @@ import Scrollspy from "react-scrollspy";
 
 function CustomNavbar(props) {
   return (
+    <div>
     <Navbar className="justify-content-center" bg="dark" variant="dark">
       <Nav defaultActiveKey={window.location.pathname}>
         {/* Scroll Spy Links*/}
@@ -22,6 +23,7 @@ function CustomNavbar(props) {
         </Scrollspy>
       </Nav>
     </Navbar>
+    </div>
   );
 }
 
