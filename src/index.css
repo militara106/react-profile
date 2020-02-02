@@ -39,10 +39,24 @@ section{
   transition: 1s;
 }
 
-.mainText {
-  color: white;
-  background-color: red;
-  width: 100%;
-  height: 100%;
+.homeImage{
+  display: block;
+  width: 80%;
+  height: auto;
   margin: auto;
+}
+
+/* Non-Mobile Screen */
+@media only screen and (min-width: 768px) {
+  .homeImage{
+    width: 40%;
+  }
+
+  .mainText{
+      font-size: 200%;
+  }
+
+  nav{
+    font-size: 5rem;
+  }
 }
