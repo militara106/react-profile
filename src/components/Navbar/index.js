@@ -6,13 +6,15 @@ import Scrollspy from "react-scrollspy";
 
 function CustomNavbar(props) {
   return (
-    <div>
-      <Navbar className="justify-content-center" bg="dark" variant="dark">
+    <div className="alwaysTop">
+      <h1 className="navName">AM</h1>
+      <Navbar className="justify-content-center" variant="dark">
         <Nav defaultActiveKey={window.location.pathname}>
           {/* Scroll Spy Links*/}
           <Scrollspy
             items={["section-1", "section-2", "section-3"]}
             currentClassName="active"
+            className="scrollSpy"
           >
             <Nav.Item className="verticalText">
               <Nav.Link href="#section-1">About</Nav.Link>

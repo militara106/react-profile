@@ -1,17 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Monoton|News+Cycle&display=swap');
+
 html{
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif; */
+    font-family: "News Cycle", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background: #272727 !important; */
 
-  background-image: url("./images/ArizonaGuitar.JPG");
+  background-image: url("./images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -39,6 +42,19 @@ section{
   transition: 1s;
 }
 
+/* Nav */
+.navName{
+  font-family: "Monoton", cursive;
+  color: white;
+  margin-top: 1rem;
+  margin-left: -1.5rem !important;
+  border-bottom: 3px solid white;
+  width: 18vw;
+}
+
+
+/* Home */
+
 .homeImage{
   display: block;
   width: 80%;
@@ -46,17 +62,62 @@ section{
   margin: auto;
 }
 
+.homeDesc{
+  white-space: normal;
+}
+
+/* Portfolio */
+
+.projectContainer{
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+}
+
+.projectContainer:hover{
+  transition: .2s;
+}
+
+.projectImage{
+  width: 130px;
+  height: auto;
+  margin: auto;
+}
+
+.projectDescription{
+  font-size: 60%;
+  width: 50%;
+}
+
+.alwaysTop{
+  z-index: 999;
+}
+
 /* Non-Mobile Screen */
 @media only screen and (min-width: 768px) {
+
+  .navName{
+    font-size: 400%;
+    width: 118px;
+  }
+
+  .scrollSpy{
+    margin-left: 2.7rem;
+  }
+
   .homeImage{
     width: 40%;
   }
 
   .mainText{
-      font-size: 200%;
+      font-size: 180%;
   }
 
-  nav{
-    font-size: 5rem;
+  .projectImage{
+    width: 20%;  
+  }
+
+  .projectDescription{
+    font-size: 60%;
   }
 }

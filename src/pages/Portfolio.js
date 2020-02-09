@@ -1,10 +1,37 @@
 import React from "react";
 import BorderContainer from "../components/BorderContainer";
+import Image from "react-bootstrap/Image";
+import Row from "react-bootstrap/Row";
 
 function Portfolio() {
-    return(
-        <BorderContainer>Portfolio</BorderContainer>
-    )
+  return (
+    <BorderContainer>
+      {/* Project 1 */}
+      <div className="projectContainer">
+        {/* Image */}
+        <Image className="projectImage" src="SecondCup.jpg" thumbnail />
+        {/* Description */}
+        <div className="projectDescription">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi
+          nullam vehicula ipsum a arcu cursus vitae.
+        </div>
+      </div>
+
+      {/* Project 2 */}
+      <div className="projectContainer">
+        {/* Description */}
+        <div className="projectDescription">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi
+          nullam vehicula ipsum a arcu cursus vitae.
+        </div>
+        {/* Image */}
+        <Image className="projectImage" src="SecondCup.jpg" thumbnail />
+      </div>
+
+    </BorderContainer>
+  );
 }
 
 export default Portfolio;
