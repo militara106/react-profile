@@ -16,7 +16,7 @@ function App() {
       <div>
         <Container>
           <Row>
-            <Col xs={10}>
+            <Col xs={10} className="fullPageContainer">
               {/* Sections set for ScrollSpy */}
               <section id="section-1"><Home /></section>
               <section id="section-2"><Portfolio /></section>

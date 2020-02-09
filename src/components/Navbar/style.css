@@ -34,11 +34,6 @@ ul{
     line-height: 4;
 }
 
-.navName{
-    color: white;
-    margin-left: -.8rem;
-}
-
 /* Non-Mobile Screen */
 @media only screen and (min-width: 768px) {
     nav{
