@@ -7,9 +7,9 @@ function Portfolio() {
   return (
     <BorderContainer>
       {/* Project 1 */}
-      <div className="projectContainer">
+      <div className="projectContainer leftSlide">
         {/* Image */}
-        <Image className="projectImage" src="SecondCup.jpg" thumbnail />
+        <Image className="projectImage" src="./images/projects/vybe.png"/>
         {/* Description */}
         <div className="projectDescription">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -27,7 +27,7 @@ function Portfolio() {
           nullam vehicula ipsum a arcu cursus vitae.
         </div>
         {/* Image */}
-        <Image className="projectImage" src="SecondCup.jpg" thumbnail />
+        <Image className="projectImage" src="SecondCup.jpg"/>
       </div>
 
     </BorderContainer>

@@ -94,9 +94,17 @@ section{
 }
 
 .projectImage{
-  width: 130px;
+  width: 140px;
   height: auto;
   margin: auto;
+}
+
+.projectVybe{
+  width: 250px;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  background-color: #282828;
 }
 
 .projectDescription{
@@ -115,6 +123,11 @@ section{
     font-size: 400%;
     width: 118px;
     margin-left: 0rem !important;
+  }
+
+  .leftSlide{
+    position: relative;
+    right: 10%;
   }
 
   .scrollSpy{
@@ -136,6 +149,10 @@ section{
 
   .projectImage{
     width: 20%;  
+  }
+
+  .projectVybe{
+    width: 80%;
   }
 
   .projectDescription{
