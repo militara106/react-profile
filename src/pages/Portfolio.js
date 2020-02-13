@@ -1,7 +1,6 @@
 import React from "react";
 import BorderContainer from "../components/BorderContainer";
 import Image from "react-bootstrap/Image";
-import Row from "react-bootstrap/Row";
 
 function Portfolio() {
   return (
