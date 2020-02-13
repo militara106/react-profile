@@ -99,14 +99,6 @@ section{
   margin: auto;
 }
 
-.projectVybe{
-  width: 250px;
-  height: auto;
-  margin: auto;
-  padding: 20px;
-  background-color: #282828;
-}
-
 .projectDescription{
   font-size: 60%;
   width: 50%;
@@ -114,6 +106,14 @@ section{
 
 .alwaysTop{
   z-index: 999;
+}
+
+/* Contact Page */
+form{
+  font-size: 60%;
+  margin: auto;
+  width: 80%;
+  text-align: left;
 }
 
 /* Non-Mobile Screen */
@@ -149,10 +149,6 @@ section{
 
   .projectImage{
     width: 20%;  
-  }
-
-  .projectVybe{
-    width: 80%;
   }
 
   .projectDescription{
