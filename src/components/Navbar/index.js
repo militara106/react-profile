@@ -12,7 +12,7 @@ function CustomNavbar(props) {
         <Nav defaultActiveKey={window.location.pathname}>
           {/* Scroll Spy Links*/}
           <Scrollspy
-            items={["section-1", "section-2", "section-3"]}
+            items={["section-1", "section-2", "section-3","section-4"]}
             currentClassName="active"
             className="scrollSpy"
           >
@@ -20,10 +20,13 @@ function CustomNavbar(props) {
               <Nav.Link href="#section-1">About</Nav.Link>
             </Nav.Item>
             <Nav.Item className="verticalText">
-              <Nav.Link href="#section-2">Portfolio</Nav.Link>
+              <Nav.Link href="#section-2">Skills</Nav.Link>
             </Nav.Item>
             <Nav.Item className="verticalText">
-              <Nav.Link href="#section-3">Contact</Nav.Link>
+              <Nav.Link href="#section-3">Portfolio</Nav.Link>
+            </Nav.Item>
+            <Nav.Item className="verticalText">
+              <Nav.Link href="#section-4">Contact</Nav.Link>
             </Nav.Item>
           </Scrollspy>
         </Nav>

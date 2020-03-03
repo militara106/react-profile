@@ -3,6 +3,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./pages/Home";
+import Skills from "./pages/Skills";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import CustomNavbar from "./components/Navbar";
@@ -19,8 +20,9 @@ function App() {
             <Col xs={10} className="fullPageContainer">
               {/* Sections set for ScrollSpy */}
               <section id="section-1"><Home /></section>
-              <section id="section-2"><Portfolio /></section>
-              <section id="section-3"><Contact /></section>
+              <section id="section-2"><Skills /></section>
+              <section id="section-3"><Portfolio /></section>
+              <section id="section-4"><Contact /></section>
 
               {/* Router Backup */}
               {/* <Route exact path="/" component={Home} />

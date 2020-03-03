@@ -36,13 +36,13 @@ class Contact extends React.Component {
 
   //   Form Value Change Handlers
   onNameChange(event) {
-    this.setState({ name: event.targer.value });
+    this.setState({ name: event.target.value });
   }
   onEmailChange(event) {
-    this.setState({ email: event.taget.value });
+    this.setState({ email: event.target.value });
   }
   onMessageChange(event) {
-    this.setState({ message: event.taget.value });
+    this.setState({ message: event.target.value });
   }
 
   render() {
@@ -94,6 +94,16 @@ class Contact extends React.Component {
             Submit
           </button>
         </form>
+
+        {/* Test Box */}
+        <div>
+          Name: {this.state.name}
+          <br/>
+          Email: {this.state.email}
+          <br/>
+          Message: {this.state.message}
+        </div>
+        
       </BorderContainer>
     );
   }
