@@ -5,11 +5,16 @@ function Skills() {
   return (
     <BorderContainer>
       <div className="homeDesc">
-        <h4>
-          Skills Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi
-          nullam vehicula ipsum a arcu cursus vitae.
-        </h4>
+
+        <div className="skillBar">
+          Test 1
+        </div>
+
+        <div className="skillBar">
+          Test 2
+        </div>
+
+        
       </div>
     </BorderContainer>
   );

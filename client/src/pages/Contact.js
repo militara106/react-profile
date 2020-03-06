@@ -17,7 +17,7 @@ class Contact extends React.Component {
     e.preventDefault();
     axios({
       method: "POST",
-      url: "http://localhost:3002/send",
+      url: "http://localhost:3000/send",
       data: this.state
     }).then(response => {
       if (response.data.status === "success") {
@@ -94,15 +94,6 @@ class Contact extends React.Component {
             Submit
           </button>
         </form>
-
-        {/* Test Box */}
-        <div>
-          Name: {this.state.name}
-          <br/>
-          Email: {this.state.email}
-          <br/>
-          Message: {this.state.message}
-        </div>
         
       </BorderContainer>
     );

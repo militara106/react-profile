@@ -32,7 +32,7 @@ router.post('/send', (req, res, next) => {
 
   var mail = {
     from: name,
-    to: 'militara106@gmail.com',  // Change to email address that you want to receive messages on
+    to: 'militara106@gmail.com',
     subject: 'New Message from Contact Form',
     text: content
   }
@@ -54,10 +54,10 @@ const app = express()
 app.use(express.static(__dirname + "/public"));
 app.use(express.static(join(__dirname, "client/build"))).use(cors())
 app.use(express.json())
-// app.use('/', router)
+app.use('/', router)
 app.get("*", (req, res) => {
     res.sendFile(join(__dirname + "/client/build/index.html"));
   });
-const port = process.env.PORT || 3002
+const port = process.env.PORT || 3000
 app.listen(port)
 console.log("App listening on port " +port);

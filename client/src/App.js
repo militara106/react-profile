@@ -19,10 +19,10 @@ function App() {
           <Row>
             <Col xs={10} className="fullPageContainer">
               {/* Sections set for ScrollSpy */}
-              <section id="section-1"><Home /></section>
-              <section id="section-2"><Skills /></section>
-              <section id="section-3"><Portfolio /></section>
-              <section id="section-4"><Contact /></section>
+              <section id="about"><Home /></section>
+              <section id="skills"><Skills /></section>
+              <section id="portfolio"><Portfolio /></section>
+              <section id="contact"><Contact /></section>
 
               {/* Router Backup */}
               {/* <Route exact path="/" component={Home} />
