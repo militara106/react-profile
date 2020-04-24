@@ -34,6 +34,10 @@ ul{
     line-height: 4;
 }
 
+.nav-itemSmall{
+    line-height: 3;
+}
+
 /* Non-Mobile Screen */
 @media only screen and (min-width: 768px) {
     nav{

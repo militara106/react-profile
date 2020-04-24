@@ -13,9 +13,7 @@ function Home() {
       />
       <div className="homeDesc">
         <h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi
-          nullam vehicula ipsum a arcu cursus vitae.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
         </h3>
         <h4>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

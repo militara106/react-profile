@@ -16,10 +16,10 @@ function CustomNavbar(props) {
             currentClassName="active"
             className="scrollSpy"
           >
-            <Nav.Item className="verticalText">
+            <Nav.Item className="verticalText nav-itemSmall">
               <Nav.Link href="#about">About</Nav.Link>
             </Nav.Item>
-            <Nav.Item className="verticalText">
+            <Nav.Item className="verticalText nav-itemSmall">
               <Nav.Link href="#skills">Skills</Nav.Link>
             </Nav.Item>
             <Nav.Item className="verticalText">
